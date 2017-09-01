@@ -1,0 +1,23 @@
+<html>
+<script type="text/javascript">
+    function sayHello(){
+        alert("hello")
+        return "return hello"
+    }
+
+    function saySomething(something){
+        alert(something)
+    }
+
+    function callJava(){
+        window.android.toastSomething(12);
+    }
+
+    <!--window.android.toastHello();-->
+
+</script>
+<body>
+<h1>Hello World</h1>
+<input type="button" onclick="callJava()" value="callJava">
+</body>
+</html>
